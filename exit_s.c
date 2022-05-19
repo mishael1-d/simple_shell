@@ -12,9 +12,9 @@ int exit_s(char **as, char **e)
 	int status;
 	(void)e;
 
-	stat = 0;
+	status = 0;
 	if (as[1])
 		status = _atoi(as[1]);
 	free_a(as);
-	exit(stat);
+	exit(status);
 }
