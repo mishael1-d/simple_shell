@@ -1,6 +1,6 @@
 # Simple_Shell
 
-Run a shell designed to mimic sh. Execute commands and interact with the kernel as an end of semester project for student at Holberton .
+Run a shell designed to mimic sh. Execute commands and interact with the kernel as an end of semester project for student at alx .
 Its built and tested on virtruel box via vagrant image ubuntu 14.04 and compiled on GCC 4.8.4 .
 
 
@@ -8,7 +8,7 @@ Its built and tested on virtruel box via vagrant image ubuntu 14.04 and compiled
 
 
 ## Clone the repo below
-https://github.com/hafdhisofien/simple_shell
+https://github.com/mishael1-d/simple_shell
 
 
 ### How to Compile
@@ -17,5 +17,5 @@ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 ## General
 | File | Description |
 | ---- | ----------- |
-| [h_shell.h](https://github.com/hafdhisofien/simple_shell/blob/master/h_shell.h) | header file |
-| [s_shell.c](https://github.com/hafdhisofien/simple_shell/blob/master/s_shell.c) | the main function |
+| [h_shell.h](https://github.com/mishael1-d/simple_shell/blob/master/h_shell.h) | header file |
+| [s_shell.c](https://github.com/mishael1-d/simple_shell/blob/master/s_shell.c) | the main function |
