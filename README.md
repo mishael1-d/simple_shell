@@ -1,7 +1,12 @@
 # Simple Shell
 
+<<<<<<< HEAD
 ### Introduction
 This repository is a [Holberton School](https://www.holbertonschool.com/) Project. The school project consisted in writing a shell like sh (Bourne Shell) by Stephen Bourne  , in **C**, using a limited number of standard library functions, So Instead we used ower own function that we rewrited over the past three month [Here](https://github.com/Theemiss/holbertonschool-low_level_programming/)
+=======
+Run a shell designed to mimic sh. Execute commands and interact with the kernel as an end of semester project for student at alx .
+Its built and tested on virtruel box via vagrant image ubuntu 14.04 and compiled on GCC 4.8.4 .
+>>>>>>> 351cbc47ed7c30cc14badd376d66872b10dcd9f5
 
 The goal in this project was to make us understand how a shell works. To single out some items: what is the *environment*, the difference between *functions* and *system calls*, how to create *processes* using `execve`...  
 
@@ -10,13 +15,19 @@ In order to run this program,
 
 Clone This Repo
 
+<<<<<<< HEAD
 `` git clone https://github.com/Theemiss/simple_shell ``
+=======
+## Clone the repo below
+https://github.com/mishael1-d/simple_shell
+>>>>>>> 351cbc47ed7c30cc14badd376d66872b10dcd9f5
 
 compile it with  
 
 `gcc 4.8.4 -Wall -Werror -Wextra -pedantic *.c -o hsh`.  
 You can then run it by invoking `./hsh` in that same directory.  
 
+<<<<<<< HEAD
 ### How to use it
 In order to use this shell, in a terminal, first run the program:    
 `prompt$ ./hsh`  
@@ -181,3 +192,10 @@ Read More [Here](https://midinfotn401.medium.com/shell-step-by-step-what-happen-
 <p align="center">
   <img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School logo">
 </p>
+=======
+## General
+| File | Description |
+| ---- | ----------- |
+| [h_shell.h](https://github.com/mishael1-d/simple_shell/blob/master/h_shell.h) | header file |
+| [s_shell.c](https://github.com/mishael1-d/simple_shell/blob/master/s_shell.c) | the main function |
+>>>>>>> 351cbc47ed7c30cc14badd376d66872b10dcd9f5
